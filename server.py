@@ -120,10 +120,11 @@ def insult_person():
       </head>
       <body>
         Hi, {}! I think you're {}!
+        <a href="/test">Click here for test</a>
       </body>
     </html>
     """.format(player, insult)
-
+    
 
 if __name__ == "__main__":
     # debug=True gives us error messages in the browser and also "reloads"
